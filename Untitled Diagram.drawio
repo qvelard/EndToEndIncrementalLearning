@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="gCE5vXK2ngx_1sM1HMBT">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5-EJj8Mcap7eAd8AvcV-1" target="T5-EJj8Mcap7eAd8AvcV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-1" value="Input :&lt;div&gt;&amp;nbsp;Detailed Prompt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5-EJj8Mcap7eAd8AvcV-2" target="T5-EJj8Mcap7eAd8AvcV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-2" value="Stable Diffusion model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-3" value="Output :&amp;nbsp;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;Image Photoréaliste&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5-EJj8Mcap7eAd8AvcV-8" target="T5-EJj8Mcap7eAd8AvcV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-8" value="Input :&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp;Image PhotoRéaliste&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5-EJj8Mcap7eAd8AvcV-10" target="T5-EJj8Mcap7eAd8AvcV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-10" value="DeepFaceLAb :&lt;div&gt;CNN model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-11" value="Output :&amp;nbsp;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;Face Swaped Video&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5-EJj8Mcap7eAd8AvcV-12" target="T5-EJj8Mcap7eAd8AvcV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5-EJj8Mcap7eAd8AvcV-12" value="Input :&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp;Video avec visage&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
